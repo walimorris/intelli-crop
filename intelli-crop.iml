@@ -1,5 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module version="4">
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.amazonaws:aws-lambda-java-core:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.amazonaws:aws-lambda-java-events:3.11.0" level="project" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.6" level="project" />
+    <orderEntry type="library" name="Maven: com.amazonaws:aws-java-sdk-s3:1.11.1000" level="project" />
+    <orderEntry type="library" name="Maven: com.amazonaws:aws-java-sdk-kms:1.11.1000" level="project" />
+    <orderEntry type="library" name="Maven: com.amazonaws:aws-java-sdk-core:1.11.1000" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.15" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.13" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.13" level="project" />
+    <orderEntry type="library" name="Maven: software.amazon.ion:ion-java:1.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.6.7.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.6.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.6.7" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.6.7" level="project" />
+    <orderEntry type="library" name="Maven: com.amazonaws:jmespath-java:1.11.1000" level="project" />
+    <orderEntry type="library" name="Maven: com.amazonaws:aws-java-sdk-dynamodb:1.11.1000" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.13.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.amazonaws:aws-lambda-java-tests:1.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.amazonaws:aws-lambda-java-serialization:1.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-params:5.7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-lang3:3.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-junit-jupiter:4.11.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-core:4.11.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.bytebuddy:byte-buddy:1.12.19" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.bytebuddy:byte-buddy-agent:1.12.19" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20220924" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.11.0" level="project" />
+    <orderEntry type="library" name="Maven: com.amazonaws:aws-java-sdk-codecommit:1.11.1000" level="project" />
+    <orderEntry type="library" name="Maven: com.amazonaws:aws-java-sdk-iam:1.11.1000" level="project" />
+    <orderEntry type="library" name="Maven: com.amazonaws:aws-java-sdk-stepfunctions:1.11.1000" level="project" />
+    <orderEntry type="library" name="Maven: com.amazonaws:aws-java-sdk-rekognition:1.11.1000" level="project" />
+  </component>
   <component name="syncSettings">
     <option name="samConfigs">
       <map>
@@ -19,6 +70,7 @@
               </option>
               <option name="tempParameterOverrides">
                 <map>
+                  <entry key="DynamoTable" value="intelli-crop-store" />
                   <entry key="InputBucket" value="input-intelli-crop" />
                   <entry key="IntelliCropTable" value="intelli-crop-table" />
                   <entry key="OutputBucket" value="output-intelli-crop" />

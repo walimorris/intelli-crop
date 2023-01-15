@@ -27,7 +27,7 @@ public class CropImageToBoundingBox {
         String outputBucket = System.getenv("OUTPUT_BUCKET");
 
         AmazonS3Client s3Client = (AmazonS3Client) AmazonS3ClientBuilder.standard().withRegion(region).build();
-        Map<String, String> taskResult = (Map<String, String>) input.get("taskresult1");
+        Map<String, String> taskResult = (Map<String, String>) input.get("taskresult");
 
         String bucket = input.get("bucket").toString();
         String key = input.get("key").toString();

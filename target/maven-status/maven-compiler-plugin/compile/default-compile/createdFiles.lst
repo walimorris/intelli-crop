@@ -1,0 +1,4 @@
+com/morris/intellicrop/events/StoreCroppedImageToDynamoDb.class
+com/morris/intellicrop/events/DetectBoundingBoxImageMetaData.class
+com/morris/intellicrop/events/CropImageToBoundingBox.class
+com/morris/intellicrop/events/InvokeIntelliCropWorkFlow.class

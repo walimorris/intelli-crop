@@ -1,0 +1,4 @@
+/home/tuvok/IdeaProjects/intelli-crop/src/main/java/com/morris/intellicrop/events/CropImageToBoundingBox.java
+/home/tuvok/IdeaProjects/intelli-crop/src/main/java/com/morris/intellicrop/events/StoreCroppedImageToDynamoDb.java
+/home/tuvok/IdeaProjects/intelli-crop/src/main/java/com/morris/intellicrop/events/DetectBoundingBoxImageMetaData.java
+/home/tuvok/IdeaProjects/intelli-crop/src/main/java/com/morris/intellicrop/events/InvokeIntelliCropWorkFlow.java

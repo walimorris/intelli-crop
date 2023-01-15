@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="syncSettings">
+    <option name="samConfigs">
+      <map>
+        <entry key="template.yml">
+          <value>
+            <SyncSamConfig>
+              <option name="bucketName" value="intelli-crop" />
+              <option name="enabledCapabilities">
+                <list>
+                  <option value="NAMED_IAM" />
+                  <option value="AUTO_EXPAND" />
+                </list>
+              </option>
+              <option name="stackName" value="intelli-crop" />
+              <option name="tags">
+                <map />
+              </option>
+              <option name="tempParameterOverrides">
+                <map>
+                  <entry key="InputBucket" value="input-intelli-crop" />
+                  <entry key="IntelliCropTable" value="intelli-crop-table" />
+                  <entry key="OutputBucket" value="output-intelli-crop" />
+                  <entry key="Region" value="us-west-2" />
+                  <entry key="RootRole" value="IntelliCropRole" />
+                  <entry key="StateMachine" value="intelli-crop-state-machine" />
+                </map>
+              </option>
+            </SyncSamConfig>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</module>

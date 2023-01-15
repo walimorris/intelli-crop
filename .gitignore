@@ -9,6 +9,6 @@
 # Zeppelin ignored files
 /ZeppelinRemoteNotebooks/
 
-
+.idea
 template.yml
 .aws-sam

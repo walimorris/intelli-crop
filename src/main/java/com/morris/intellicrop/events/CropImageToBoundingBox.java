@@ -51,6 +51,7 @@ public class CropImageToBoundingBox {
         S3Object object = s3Client.getObject(new GetObjectRequest(bucket, key));
         BufferedImage subImage = getSubImageFromOriginalImage(object, taskResultMap, logger);
         putCroppedImageToOutputBucket(s3Client, subImage, fileType, outputBucket, key, logger);
+        s3Client.shutdown();
 
         return "success";
     }
@@ -144,6 +145,8 @@ public class CropImageToBoundingBox {
             meta.setContentLength(buffer.length);
             meta.setContentType("image/" + fileType);
             s3Client.putObject(new PutObjectRequest(outputBucket, key, is, meta));
+            os.close();
+            is.close();
         } catch (IOException e) {
             logger.log("Error uploading cropped image " + key + " to bucket " + outputBucket + ": " + e.getMessage());
         }

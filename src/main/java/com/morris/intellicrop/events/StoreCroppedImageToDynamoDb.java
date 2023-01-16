@@ -52,6 +52,8 @@ public class StoreCroppedImageToDynamoDb {
         } catch (ResourceNotFoundException e) {
             logger.log("Error uploading given items to " + dynamoTable + " table");
         }
+        s3Client.shutdown();
+        dynamoDBClient.shutdown();
 
         return "success";
     }

@@ -39,6 +39,7 @@ public class DetectBoundingBoxImageMetaData {
                     .build();
 
             boundingBox = analyzeImageForBoundingBox(amazonRekognitionClient, bucket, key, logger);
+            amazonRekognitionClient.shutdown();
         }
         return buildStepFunctionOutput(boundingBox, logger);
     }

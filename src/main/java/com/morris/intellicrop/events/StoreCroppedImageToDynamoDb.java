@@ -14,6 +14,9 @@ import java.util.Map;
 import java.util.UUID;
 
 public class StoreCroppedImageToDynamoDb {
+    public static final String KEY = "key";
+    public static final String ID = "Id";
+    public static final String S3_URL = "S3Url";
 
     public String handleRequest(Map<String, Object> input, Context context) {
         LambdaLogger logger = context.getLogger();
@@ -22,7 +25,7 @@ public class StoreCroppedImageToDynamoDb {
         Regions region = Regions.fromName(System.getenv("REGION"));
         String outputBucket = System.getenv("OUTPUT_BUCKET");
         String dynamoTable = System.getenv("DYNAMO_TABLE");
-        String key = input.get("key").toString();
+        String key = input.get(KEY).toString();
 
         AmazonS3Client s3Client = (AmazonS3Client) AmazonS3ClientBuilder
                 .standard()
@@ -41,8 +44,8 @@ public class StoreCroppedImageToDynamoDb {
         String uniqueId = UUID.randomUUID().toString();
 
         Map<String, AttributeValue> itemValues = new HashMap<>();
-        itemValues.put("Id", new AttributeValue(uniqueId));
-        itemValues.put("S3Url", new AttributeValue(imageUrl));
+        itemValues.put(ID, new AttributeValue(uniqueId));
+        itemValues.put(S3_URL, new AttributeValue(imageUrl));
 
         try {
             dynamoDBClient.putItem(dynamoTable, itemValues);

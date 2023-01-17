@@ -20,7 +20,6 @@ public class StoreCroppedImageToDynamoDb {
 
     public String handleRequest(Map<String, Object> input, Context context) {
         LambdaLogger logger = context.getLogger();
-        logger.log("inside StoreCroppedImageToDynamoDb");
 
         Regions region = Regions.fromName(System.getenv("REGION"));
         String outputBucket = System.getenv("OUTPUT_BUCKET");

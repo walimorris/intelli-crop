@@ -25,7 +25,6 @@ public class DetectBoundingBoxImageMetaData {
 
     public Map<String, String> handleRequest(Map<String, Object> input, Context context) {
         LambdaLogger logger = context.getLogger();
-        logger.log("Detect Image Meta Data Function in Intelli-Crop StateMachine has been triggered");
         Regions region = Regions.fromName(System.getenv("REGION"));
 
         BoundingBox boundingBox = null;

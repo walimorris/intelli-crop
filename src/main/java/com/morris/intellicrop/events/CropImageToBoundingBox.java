@@ -31,7 +31,6 @@ public class CropImageToBoundingBox {
 
     public String handleRequest(Map<String, Object> input, Context context) {
         LambdaLogger logger = context.getLogger();
-        logger.log("Inside Cropping image function");
         Regions region = Regions.fromName(System.getenv("REGION"));
         String outputBucket = System.getenv("OUTPUT_BUCKET");
 

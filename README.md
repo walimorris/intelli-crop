@@ -26,3 +26,4 @@ performance at any scale
 
 ## Architecture
 ![Architecture](https://u-sea-metro.s3.us-west-2.amazonaws.com/intellicrop-arch.png)
+[Screencast from 01-17-2023 05:45:45 PM.webm](https://user-images.githubusercontent.com/48896622/213061535-31ec23de-4dc9-486b-b320-f9eefb6a6a8f.webm)

@@ -5,7 +5,7 @@ Intelli-Crop is a web application that uses machine learning and facial recognit
 crop images to a fine-tuned headshot proportion. This can be expanded in many ways such as social media 
 images, entertainment platforms, thumbnails, e-commerce, facial recognition and other machine learning algorithms. 
 
-How easy is it to implement an ML solution which uses facial recognition? Further, what can such technologies 
+How easy is it to implement an ML solution with AWS that uses facial recognition? Further, what can such technologies 
 be used for, in both malicious and positive ways? Why would any entity want to recognize any person's face,
 what can that recognized image be used for, what is the limit to such technologies and how are such 
 technologies being used today? Of course, this brings up many questions and this small solution is a simple 

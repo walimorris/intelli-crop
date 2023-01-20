@@ -30,3 +30,6 @@ performance at any scale
 ## Short Demo
 
 [![](http://img.youtube.com/vi/nX_inqaAzOI/0.jpg)](https://user-images.githubusercontent.com/48896622/213061535-31ec23de-4dc9-486b-b320-f9eefb6a6a8f.webm)
+
+## Check out the Frontend Amplify Repository
+https://github.com/walimorris/intelli-crop-frontend

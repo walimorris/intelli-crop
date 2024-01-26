@@ -8,7 +8,7 @@
 <h3 align="center">Intellicrop</h3>
 
   <p align="center">
-    Intelligent Image Cropping with Managed AI
+    Intelligent Image Cropping with Managed AI/ML
     <br />
     <a href="https://github.com/walimorris/intelli-crop-frontend"><strong>Checkout the minimal React frontend »</strong></a>
     <br />
@@ -23,7 +23,7 @@
 # Intellicrop
 ***
 ## High Level Overview
-Intelli-Crop is a web application that uses machine learning and facial recognition to intelligently 
+Intelli-Crop is a web application that uses Managed AI/ML and facial recognition to intelligently 
 crop images to a fine-tuned headshot proportion. 
 
 ### Built With

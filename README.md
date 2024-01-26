@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/walimorris/intelli-crop">
-    <img src="smart-cropper-arch-v1-Page-1.drawio.png" alt="Logo" width="500" height="300">
+    <img src="smart-cropper-arch-v1-Page-1.drawio.png" href="https://github.com/walimorris/intelli-crop/blob/develop/smart-cropper-arch-v1-Page-1.drawio.png" target="_blank" alt="Logo" width="500" height="300">
   </a>
 
 <h3 align="center">Intellicrop</h3>

@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/walimorris/intelli-crop">
-    <img src="smart-cropper-arch-v1-Page-1.drawio.png" alt="Logo" width="600" height="400">
+    <img src="smart-cropper-arch-v1-Page-1.drawio.png" alt="Logo" width="500" height="300">
   </a>
 
 <h3 align="center">Intellicrop</h3>
@@ -30,7 +30,7 @@ crop images to a fine-tuned headshot proportion.
 * [![React][React.js]][React-url]
 * [![AWS][AWS.com]][AWS-url]
 
-Here are the technologies used in this project (this may expand in the future): 
+Here are the technologies used in this project: 
 * [Amazon Cognito](https://aws.amazon.com/cognito/) Implement secure, frictionless customer identity and access
 management that scales
 * [AWS Amplify](https://aws.amazon.com/amplify/) Build full-stack web and mobile apps in hours

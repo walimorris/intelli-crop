@@ -1,8 +1,34 @@
-# Intelli-Crop
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/walimorris/intelli-crop">
+    <img src="smart-cropper-arch-v1-Page-1.drawio.png" alt="Logo" width="400" height="140">
+  </a>
+
+<h3 align="center">Intellicrop</h3>
+
+  <p align="center">
+    Intelligent Image Cropping with Managed AI
+    <br />
+    <a href="https://github.com/walimorris/intelli-crop-frontend"><strong>Checkout the minimal React frontend »</strong></a>
+    <br />
+    <br />
+    ·
+    <a href="https://github.com/walimorris/intelli-crop/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/walimorris/intelli-crop/issues">Request Feature</a>
+  </p>
+</div>
+
+# Intellicrop
 ***
 ## High Level Overview
 Intelli-Crop is a web application that uses machine learning and facial recognition to intelligently 
 crop images to a fine-tuned headshot proportion. 
+
+### Built With
+* [![React][React.js]][React-url]
+* [![AWS][AWS.com]][AWS-url]
 
 Here are the technologies used in this project (this may expand in the future): 
 * [Amazon Cognito](https://aws.amazon.com/cognito/) Implement secure, frictionless customer identity and access
@@ -17,12 +43,20 @@ performance at any scale
 * [Amazon CloudFront](https://aws.amazon.com/cloudfront/) Securely deliver content with low latency and high transfer speeds
 ***
 
-## Architecture
-![Architecture](https://u-sea-metro.s3.us-west-2.amazonaws.com/intellicrop-arch.png)
-
 ## Short Demo
 
 [![](http://img.youtube.com/vi/nX_inqaAzOI/0.jpg)](https://user-images.githubusercontent.com/48896622/213061535-31ec23de-4dc9-486b-b320-f9eefb6a6a8f.webm)
 
-## Check out the Frontend Amplify Repository
-https://github.com/walimorris/intelli-crop-frontend
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
+[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/wali-m/
+[product-screenshot]: images/screenshot.png
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Springboot.com]: https://img.shields.io/badge/Springboot-4B6F44?style=for-the-badge&logo=springboot&logoColor=white
+[Springboot-url]: https://spring.io
+[AWS.com]: https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon&logoColor=000000
+[AWS-url]: https://aws.amazon.com/
